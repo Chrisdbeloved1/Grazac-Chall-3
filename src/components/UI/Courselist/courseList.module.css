@@ -1,0 +1,29 @@
+.video_title_list {
+  padding: 15px 0px;
+}
+  .video_title {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.option {
+    width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.option p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.text_co p { 
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+
+
+

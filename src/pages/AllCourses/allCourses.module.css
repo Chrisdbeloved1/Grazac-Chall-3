@@ -1,0 +1,45 @@
+.hero {
+  width: 100%;
+  height: calc(100vh - 8rem);
+  background-image: url("../../assets/images/AllCourses/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.text_container {
+    padding-top: 200px;
+    width: 50%;
+}
+.text_container h2 {
+    font-size: 5rem;
+    padding: 0rem 0px 0px 10rem;
+    color: #fff;
+}
+    
+.text_container p {
+    font-size: 1.4rem;
+    padding: 3rem 0px 0px 10rem;
+    color: #fff;
+    line-height: 3rem;
+}
+
+ .card_cont {
+     height: 80rem;
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ .card_cont h2 {
+     font-size: 3rem;
+     padding: 50px 0px;
+ }
+
+ .card_arrange {
+     display: flex;
+     justify-content:space-between;
+ }
+
+ @media screen and (min-width: 768px) {
+     
+ }
+

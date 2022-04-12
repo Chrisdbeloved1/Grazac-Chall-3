@@ -1,0 +1,168 @@
+.header_cont {
+        width: 100%;
+        height: 70rem;
+        background: url(../../assets/images/Landing/header-bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -0px -1px;
+      
+}
+
+.hero_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin: 11rem auto 0px auto; 
+    position: relative; 
+    width: 80%;
+}
+
+.right_cont {
+    padding-right: 2rem;
+    width: 50%;
+}
+
+.right_cont h1 span {
+    display: block;
+  }
+
+.right_cont h1 {
+    font-size: 4.5rem;
+    line-height: 1.4;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+
+  .right_cont p {
+    font-size: 1.6rem;
+    line-height: 2;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 30px;
+  }
+
+  .Search_input {
+    padding: 15px 25px;
+    width: 80%;
+    background: transparent;
+    border-radius: 5px;
+    border: 1.5px solid #fff;
+  }
+
+  .input_cont {
+      position: relative;
+  }
+
+  .input_cont span {
+    position: absolute;
+    top: 15px;
+    left: 70%;
+  }
+
+  .left_cont  {
+    width: 40%;
+  }
+  
+  .left_cont img {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+  }
+
+ .build_cont {
+   height: 40rem;
+   background-image: url(../../assets/images/Landing/build-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: fixed;
+ }
+
+ .build_wrap {
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 10rem;
+ }
+
+ .button_cont {
+   margin-top: 5rem;
+ }
+
+
+ .test_cont {
+   height: 65rem;
+ }
+
+
+
+ .test_card {
+   width: 84%;
+   height: auto;
+   margin: 10rem auto 0px auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+  
+ }
+
+ .test_wrap h2 {
+   font-size: 3rem;
+   text-align: center;
+   padding-top: 9rem;
+ }
+
+
+ .tutor_cont {
+    height: 40rem;
+ }
+
+ .tutor_wrap {
+   width: 80%;
+   height:100%;
+   margin: 0 auto;
+ }
+
+ .tutor_wrap h2{
+  font-size: 3rem;
+  text-align: left;
+  padding-top: 3rem;
+ }
+
+ .logo_cont {
+  margin: 10rem auto 0px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+ }
+
+
+
+ @media screen and (max-width: 1024px){
+  .left_cont  {
+    width: 40%;
+  }
+  .left_cont img {
+    width: 100%;
+    height: auto;
+  }
+  
+ .tutor_cont {
+  height: 50rem;
+  margin-top: 100rem;
+}
+
+.tutor_wrap {
+
+ height: 50rem;
+}
+
+.test_card {
+  flex-wrap: wrap;
+}
+
+ }

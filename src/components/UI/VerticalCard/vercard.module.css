@@ -1,0 +1,48 @@
+.get > .main_card_cont {
+  width: 25rem;
+  height: 35rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 15px 15px 0px 15px;
+}
+
+
+.get > .main_card_cont:hover {
+    width: 27rem;
+    height: 36rem;
+    transition: all 0.3s ease-in-out;
+    color: #301446;
+}
+
+.card_image img {
+  width: 100%;
+}
+
+.card_text {
+    padding: 20px 0px 0px 20px;
+    color: #301446;
+}
+
+.card_text h2 {
+    padding: 10px 0px 0px 0px;
+    color: #301446;
+    font-size: 1.6rem;
+}
+.pricce {
+    padding: 10px 40px 0px 0px;
+    text-align: right;
+    color: #301446;
+}
+
+.small {
+    font-size:1.2rem;
+    color: #c4c4c4;
+    text-decoration: line-through;
+    padding-right: 10px;
+}
+
+.big {
+    font-size:1.8rem;
+    font-weight: 550;
+}

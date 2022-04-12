@@ -1,0 +1,170 @@
+.preview_hero {
+  background: #301446;
+}
+
+.sect_hero {
+  display: flex;
+  width: 80%;
+  height: 60rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.heade_text h2 {
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 25px;
+  line-height: 1.7;
+}
+
+.heade_text p {
+  font-size: 1.6rem;
+  color: #fff;
+  padding-bottom: 20px;
+  line-height: 2;
+}
+
+.sec_right_cont {
+  width: 65%;
+  height: 50rem;
+}
+
+.sec_left_cont {
+  width: 35%;
+}
+.star_share {
+  padding-top: 20px;
+}
+
+.imag {
+  padding: 20px 0px;
+}
+
+.price {
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.price_big_text {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 500;
+  padding-right: 25px;
+}
+
+.price_small_text {
+  font-size: 2rem;
+  color: rgb(161, 158, 158);
+  text-decoration: line-through;
+}
+
+.btn_cont {
+  padding-bottom: 30px;
+}
+
+.sect_top_cont {
+  display: flex;
+  height: 40rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10rem 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner_right_cont {
+  width: 40%;
+  height: 30rem;
+}
+.inner_left_cont {
+  width: 55%;
+  height: 30rem;
+  border-left: 1.5px solid #c4c4c4;
+  padding-left: 50px;
+}
+
+.inner_right_cont h3 {
+  font-size: 1.8rem;
+  padding-bottom: 25px;
+}
+
+.bull_cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bullet {
+  padding-right: 20px;
+}
+
+.text {
+  font-size: 1.4rem;
+}
+
+.section2_main_cont {
+  height: 45rem;
+  position: relative;
+}
+
+
+.section2_main_cont:before {
+    content: " ";
+    position: absolute;
+    background: #c4c4c4;
+    width: 70%;
+    height: 1.5px;
+    top: -10px;
+    left: 150px;
+    padding-left: 60px;
+}
+
+.sect2_inner_cont {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sect2_top {
+    width: 80%;
+    padding-top: 25px;
+}
+
+
+.sect2_top li, p{
+    font-size: 1.4rem;
+    padding: 10px 0px;
+    line-height: 1.8;
+}
+
+.sect3_cont {
+    height: 70rem;
+}
+
+.header_2 {
+    font-size: 1.8rem;
+    padding-bottom: 25px;
+  }
+
+  .sect3_inner {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .feedback {
+      height: 40rem;
+  }
+
+.feed_inner {
+    width: 80%;
+    margin: 30px auto;
+    height: 20rem;
+}
+
+.feed_top {
+    padding-bottom: 30px;
+}
+
+
+

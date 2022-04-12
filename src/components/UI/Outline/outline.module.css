@@ -1,0 +1,25 @@
+.Outline_cont {
+ padding-bottom: 25px;
+}
+.Outline_inner {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #c4c4c4;
+  padding: 25px 20px;
+  width: 75%;
+  border-radius: 0px 0px 30px 0px;
+}
+
+.Outline_cont h2 {
+  font-size: 1.8rem;
+  padding-bottom: 25px;
+}
+
+.out_text {
+    font-size: 1.6rem;
+    padding-right: 50px;
+}
+
+.out_text3 {
+    font-size: 1.6rem;
+}

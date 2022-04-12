@@ -1,0 +1,60 @@
+.card_container {
+  width: 50rem;
+  height: 25rem;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 15px;
+}
+.image_card {
+  width: 40%;
+  height: 100%;
+}
+
+.image_card img {
+  width: 100%;
+  height: 100%;
+}
+
+.content_card {
+  width: 55%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content_card h3 {
+  font-size: 1.5rem;
+  color: #301446;
+  padding: 4rem 0 0rem 0;
+}
+
+.metering_card {
+  height: 8%;
+  background: #f2e6e8;
+  border-radius: 5px;
+  display: flex;
+  margin: 0 20px 0 0;
+}
+
+.metering_card_left {
+  height: 100%;
+  width: 10%;
+  background: #301446;
+  border-radius: 5px;
+}
+
+.metering_card_right {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.metering_card_right p {
+  text-align: center;
+}
